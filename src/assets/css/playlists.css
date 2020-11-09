@@ -1,0 +1,247 @@
+#playlists-warp{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* top1样式 */
+.playlists-warp #txt-warp{
+  margin-top: 20px;
+  left: 85px;
+  position: absolute;
+}
+#txt{
+  color: #c3325d;
+  font-size: 18px;
+  font-weight: 600;
+}
+#txt1{
+  font-size: 13px;
+  margin-left: 0px;
+  color:#c2c2c2e1 ;
+}
+.playlists-warp #album-warp h1{
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.playlists-warp #album-warp{
+  width: 26vw;
+  background-color: #0c101b;
+  margin-top: 20px;
+  float: left;
+}
+.playlists-warp #album-warp img{
+  width: 50%;
+  height: 40%;
+  float: left;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+.playlists-warp #album-warp a{
+  color: #db1f1f;
+  float: right;
+  height: 50px;
+  font-size: 13px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+.playlists-warp #txt-warp #album-warp h5{
+  color: #dfdfdfe1;
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 10px;
+  height: 300px;
+  overflow:hidden;
+  font-weight: 500;
+}
+.playlists-warp #txt-warp #album-warp h1{
+  width: 200px;
+  padding-left: 10px;
+  font-size: 18px;
+  color: #c2c2c2e1;
+}
+.playlists-warp #txt-warp #album-warp h2{
+  color: #c2c2c2e1;
+  margin-left: 230px;
+  font-size: 18px;
+}
+.playlists-warp #txt-warp #album-warp p{
+  color: #c2c2c2e1;
+  margin-left: 230px;
+  font-size: 13px;
+  display: block;
+  margin-top: 20px;
+}
+.playlists-warp #txt-warp #album-warp h2:hover{
+  color: #b41c1c;
+  cursor:pointer
+}
+/* ele样式 */
+.playlists-warp .el-pagination .btn-next, .el-pagination .btn-prev{
+  background-color:#0c101b;
+}
+.playlists-warp .el-pagination button:disabled{
+  background-color:#0c101b;
+}
+.playlists-warp .el-dialog, .el-pager li{
+  background-color:#0c101b;
+  font-size:18px;
+}
+.playlists-warp .el-pager li.active{
+  color:#db1f1f;
+}
+.playlists-warp .el-pager li:hover{
+  color:#db1f1f;
+}
+.playlists-warp .el-pagination button:hover{
+  color:#db1f1f;
+}
+
+.playlists-warp #albumlists .el-pagination .btn-next, .el-pagination .btn-prev{
+  background-color:#0c101b;
+}
+.playlists-warp #albumlists .el-pagination button:disabled{
+  background-color:#0c101b;
+}
+.playlists-warp #albumlists .el-dialog, .el-pager li{
+  background-color:#0c101b;
+  font-size:14px;
+}
+.playlists-warp #albumlists #card{
+  margin-right: 450px;
+  margin-top: 50px;
+  float:right ;  
+}
+.playlists-warp #albumlists .el-pager li.active{
+  color:#db1f1f;
+}
+.playlists-warp #albumlists .el-pager li:hover{
+  color:#db1f1f;
+}
+.playlists-warp #albumlists .el-pagination button:hover{
+  color:#db1f1f;
+}
+/* 专辑列表样式 */
+
+.playlists-warp #albumlists img{
+  width: 230px;
+  height: 230px;
+  transition: all 0.1s;
+}
+
+.playlists-warp #albumlists img:hover{
+  transform: scale(1.15);
+}
+
+.playlists-warp #albumlists{
+  width: 65vw;
+  height: 580px;
+  float: right;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #0c101b;
+}
+.playlists-warp #albumcon{
+  width: 30%;
+  height: 120px;
+  background-color: #131722;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+}
+#albumlists #albumcon img{
+  height: 120px;
+  width: 120px;
+  transition: all 0.1s;
+  float: left;
+}
+#albumlists #albumcon img:hover{
+  transform: scale(1.15);
+}
+#albumlists #albumcon #comwarp{
+  float: left;
+  width: 170px;
+  height: 120px;
+}
+#albumcon #comwarp h2{
+  color: #c2c2c2e1;
+  margin-left: 10px;
+  font-size: 15px;
+}
+#albumcon #comwarp h3{
+  color: #c2c2c2e1;
+  margin-left: 10px;
+  margin-top: -5px;
+  font-size: 12px;
+}
+#albumcon #comwarp a{
+  float: right;
+  margin-top: 10px;
+  margin-left: 100px;
+  position: absolute;
+}
+#albumcon #comwarp h2:hover{
+  color: #b41c1c;
+  cursor:pointer
+}
+/* 网友推荐歌单样式 */
+.playlists-warp #fri-warp{
+  width: 85vw;
+  /* height: 800px; */
+  background-color: #0c101b;
+  position: absolute;
+  margin-top: 750px;
+  margin-left: 90px;
+  
+}
+#fri-warp h1{
+  color: #c3325d;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+#fri-warp p{
+  font-size: 13px;
+  color: #dfdfdfe1;
+  margin-left: 20px;
+}
+#fri-warp #list-warp{
+  width: 23%;
+  height: 120px;
+  background-color: #131722;
+  color: #dfdfdfe1;
+  margin-left: 15px;
+  margin-top: 15px;
+  float: left;
+}
+#fri-warp #list-warp img{
+  width: 120px;
+  height: 120px;
+  float: left;
+  transition: all 0.1s;
+  margin-right: 10px;
+}
+#fri-warp #list-warp img:hover{
+  transform: scale(1.15);
+}
+#fri-warp #list-warp #text-warp{
+  margin-left: 100px;
+}
+#fri-warp #list-warp #text-warp h2{
+  font-size: 16px;
+  margin-top: 10px;
+  width: 190px;
+}
+#fri-warp #card{
+    margin-top: 15px;
+    margin-right: 130px;
+    margin-bottom: 30px;
+    float:right ;  
+}
+#fri-warp h2:hover{
+  color: #b41c1c;
+  cursor:pointer
+}

@@ -1,0 +1,155 @@
+#video-warp{
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(25px);
+    background-color: rgba(12, 16, 27, 0.5);
+  
+}
+/* 播放器 */
+#video-warp #play-video{
+    width: 40%;
+    height: 50%;
+    margin-top: 2vh;
+    margin-left: 17vw;
+    float: left;
+    /* background-color: #fff; */
+}
+#video-win{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    overflow: hidden;
+}
+/* 评论 */
+#video-warp #comment{
+    width: 40%;
+    height: 40%;
+    float: left;
+    margin-left: 17vw;
+    background-color: #131722;
+}
+#comment #detail{
+    width:90%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#comment #detail h3{
+    color: #e6e3e3;
+    font-size: 15px;
+    font-weight: 500;
+}
+#comment #detail #art{
+    font-size: 13px;
+    margin-top: -8px;
+    color: #c2c2c2a2;
+    
+}
+#comment #detail #count{
+    margin-top: -15px;
+    font-size: 10px;
+}
+#detail #count img{
+    width: 10px;
+}
+#detail #count p{
+    width: 30%;
+    float: left;
+    color: #c2c2c2a6;
+}
+ #scrollbar .scrollbar-wrap{
+    overflow-x:hidden;
+}
+#comment #com-warp{
+    margin-top: 60px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#comment #com-warp #com-swarp{
+    margin-top: 20px;
+}
+#comment #com-warp #com-swarp h3{
+    margin-left: 10%;
+    font-size: 14px;
+    color: #e6e3e3;
+    font-weight: 500;
+    padding-top: 10px;
+}
+#comment #com-warp #com-swarp p{
+    font-size: 10px;
+    margin-left: 7%;
+    color: #c2c2c2a6;
+}
+#comment #com-warp img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 0px;
+    border-radius: 50%;
+}
+/* 相似 */
+#video-warp #similar-video{
+    width: 25%;
+    height: 90%;
+    margin-top: -50vh;
+    background-color: #131722;
+    float: left;
+}
+#similar-video h2{
+    color: #c3325d;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#similar-video #simivideo-warp h3{
+     color: #e6e3e3;
+     font-size: 12px;
+     margin-top: 0px;
+     font-weight: 500;
+     cursor: pointer;
+}
+#similar-video #simivideo-warp h3:hover{
+    color: #c3325d;
+}
+#similar-video #simivideo-warp p{
+    font-size: 10px;
+    color: #c2c2c2a6;
+}
+#similar-video #simivideo-warp #video-tit{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding-top: 10px;
+}
+#similar-video #simivideo-warp img{
+    height: 100%;
+    width: 40%;
+    cursor: pointer;
+    float: left;
+    margin-right: 10px;
+}
+#similar-video #simivideo-warp{
+    width: 90%;
+    height: 90px;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    /* padding-top: 10px; */
+    /* background-color: #725656; */
+}
+/* 关闭 */
+#guanbi{
+    font-size: 60px;
+    color: #c2c2c2a6;
+    font-weight: 500;
+    float: left;
+    cursor: pointer;
+    margin-top: -29%;
+    margin-left: 1%;
+}
+#guanbi:hover{
+    color: brown;
+}

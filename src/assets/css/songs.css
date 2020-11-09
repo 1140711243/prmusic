@@ -1,0 +1,171 @@
+#big-warp{
+    width: 100vw;
+    display: inline-block;
+}
+#big-warp p{
+    font-size: 13px;
+    color: #c2c2c2e1;
+    margin-left: 20px;
+}
+/* 全部歌手分类 */
+#big-warp #top-warp{
+    width: 65vw;
+    height: 660px;
+    float: left;
+    margin-left: 50px;
+    background-color:#0c101b;
+}
+#big-warp #top-warp h1{
+    color: #c3325d;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#big-warp #top-warp #cha-warp{
+    margin-top: -10px;
+}
+
+/* 遮罩动画 */
+#cha-warp .cha-songer{
+    float: left;
+    margin-left: -20px;
+}
+#top-warp ul li {
+    position: relative;
+    overflow: hidden;
+}
+
+#top-warp ul li img {
+    height: 180px;
+    width: 180px;
+    position: relative;
+}
+/*悬停出现遮罩效果*/
+#top-warp ul li:hover .case_info {
+    bottom: -15px;
+}
+/*遮罩效果*/
+.cha-songer .case_info {
+    position: absolute;
+    bottom: -180px;
+    color: #b7bcc2;
+    transition: all .5s;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgb(12, 16, 27));
+    width: 180px;
+    height: 180px;
+}
+.cha-songer .case_info h5{
+    color: #db1f1f;
+}
+.cha-songer .case_info #case-warp {
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
+    margin-left: auto;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+/* top100样式 */
+#all-warp{
+    width: 25vw;
+    height: 650px;
+    margin-left: 30px;
+    background-color: #0c101b;
+    float: left;
+    color: #7c808c;
+}
+#big-warp #all-warp h1{
+    color: #c3325d;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#big-warp #all-warp #scrollbar .scrollbar-wrap{
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+#big-warp #all-warp .infinite-list #s-warp{
+    width: 24vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#big-warp #all-warp .infinite-list p{
+    color: #911616;
+    font-size: 12px;
+}
+#big-warp #all-warp .infinite-list td{
+    width: 120px;
+    height: 50px;
+    font-size: 10px;
+    text-align: center;
+    vertical-align:middle;
+    cursor: pointer;
+}
+#big-warp #all-warp .infinite-list td:hover{
+    color: #db1f1f;
+}
+#big-warp #all-warp .infinite-list img{
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+}
+/* ele样式 */
+#big-warp .el-tabs--border-card{
+    background:#0c101b;
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+    height: 400px;
+    border: none;
+    font-size: 14px;
+}
+#big-warp .el-tabs--top.el-tabs--border-card>.el-tabs__header .el-tabs__item:last-child{
+    background-color:#0c101b;
+
+}
+#big-warp .el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active{
+    color:#db1f1f;
+    background-color:#0c101b;
+    border-right-color:#0c101b;
+    border-bottom-color:#db1f1f;
+    border-left-color:#0c101b;
+}
+#big-warp .el-tabs--border-card>.el-tabs__header .el-tabs__item:not(.is-disabled):hover{
+    color: rgb(240, 248, 255);
+}
+#big-warp .el-tabs__item{
+    color: rgba(219, 233, 233, 0.616);
+    background-color:#0c101b;
+    font-size: 10px;
+    overflow: hidden;
+}
+#big-warp .el-tabs__nav-scroll{
+    background-color:#0c101b;
+    border:#0c101b;
+}
+#big-warp .el-pager li.active{
+    color:#db1f1f;
+}
+#big-warp .el-pager li:hover{
+    color:#db1f1f;
+}
+#big-warp .el-pagination button:hover{
+    color:#db1f1f;
+}
+#big-warp .el-pagination .btn-next, .el-pagination .btn-prev{
+    background-color:#0c101b;
+}
+#big-warp .el-pagination button:disabled{
+    background-color:#0c101b;
+}
+#big-warp .el-dialog, .el-pager li{
+    background-color:#0c101b;
+    font-size:14px;
+}
+#big-warp #top-warp #card{
+    margin-bottom: 60px;
+    margin-right: 50px;
+    float:right ;  
+}

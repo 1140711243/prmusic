@@ -1,0 +1,309 @@
+#dis-warp{
+    width: 100vw;
+    height: 1800px;
+    background-color: #131722;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(121, 121, 121, 0.788);
+    letter-spacing: 1px;
+    
+ }
+/* 精选歌单样式 */
+#songLists h3{
+    font-size: 10px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 5px;
+    color: #e2e2e2e1;
+}
+#songLists h4{
+    font-size: 10px;
+    text-align: center;
+    margin-top: -0px;
+}
+#songLists h1{
+    color: #c3325d;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 45px;
+}
+#songLists p{
+    font-size: 10px;
+    margin-left: 45px;
+    margin-top: 0px;
+}
+
+#songLists{
+    width: 97vw;
+    height: 420px;
+    padding-top: 50px;
+    padding-left: 30px;
+    position: relative;
+}
+#songLists ul{
+    display: flex;
+}
+#a01{
+    width: 220px;
+    /* height: 280px; */
+    margin-left: 20px;
+    margin-top: 30px;
+    float: left;
+    z-index: 1;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: block;
+    position: relative;
+    background-color: #0c101b;
+}
+#a01 h3:hover{
+ cursor: pointer;
+ color: #c3325d;
+}
+
+#songLists .scrollbar{
+    overflow-y:hidden;
+    overflow-x: hidden;
+}
+
+#songLists img{
+    width: 220px;
+    height: 220px;
+}
+  /* mv专区样式 */
+
+#mvLists{
+    width: 100vw;
+    height: 500px;
+    position: absolute;
+    margin-top: 110px;
+}
+#mvLists h1{
+      font-size: 16px;
+      font-weight: 600;
+      color: #c3325d;
+      margin-left: 75px;
+      float: left;
+}
+#mvLists p{
+    font-size: 10px;
+    margin-left: -62px;
+    margin-top: 40px;
+    float: left;
+    
+}
+#pic-warp{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    margin-top: 100px;
+}
+#mv-warp{
+    width: 420px;
+    height: 242px;
+    float: left;
+    overflow: hidden;
+    margin-left: 30px;   
+}
+#mv-warp #img1{
+    width: 100%;
+    height: 100%;
+    position: relative;   
+}
+#pic-warp #mv-warp ul li {
+    float: left;
+    margin-left: -40px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+#pic-warp #mv-warp ul li:hover .case_info {
+    bottom: -5px;
+}
+#pic-warp #mv-warp .case_info {
+    margin-bottom: -0px;
+    position: absolute;
+    bottom: -242px;
+    color: #b7bcc2;
+    cursor: pointer;
+    transition: all .5s;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgb(12, 16, 27));
+    width: 420px;
+    height: 242px;
+}
+#pic-warp #mv-warp .case_info img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+#pic-warp #mv-warp #case-warp{
+    margin-top: 150px;
+}
+#pic-warp #mv-warp #case-warp h4{
+    font-size: 12px;
+}
+#pic-warp #mv-warp #case-warp h5{
+    color: #db1f1f;
+    font-size: 10px;
+}
+
+/* 新歌曲样式 */
+#songs h1{
+      color: #c3325d;
+      font-size: 16px;
+      font-weight: 600;
+      margin-left: 40px;
+      margin-top: 30px;
+      
+}
+#songs p{
+    font-size: 10px;
+    margin-left: 40px;  
+}
+#songs{
+    width: 60%;
+    /* height: 600px; */
+    background-color: #0c101b;
+    float: left;
+    margin-top: 510px;
+    margin-left: 60px;
+}
+#songs .songslist thead{
+    font-size:13px;
+}
+#songs .songslist .el-table__row{
+    height: 30px;
+}
+#songs .songslist td{
+    text-align: center;
+    width: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+}
+#songs .songslist tr{
+    width: 100%;
+}
+#songs .songslist tr:hover{
+    height: 60px;
+    background-color: #131722;
+}
+#songs .songslist tr:hover img{
+    transform: scale(1.3);
+}
+#songs .songslist td:hover{
+    color: #db1f1f;
+    cursor: pointer;
+}
+#songs .songslist img{
+    width: 30px;
+    height: 30px;
+    transition: all 0.1s;
+    border-radius: 3px;
+}
+/* ele标签 */
+#dis-warp .el-tabs--border-card{
+    background:#0c101b;
+    margin-right: auto;
+    margin-left: auto;
+    width: 850px;
+    border: none;
+    font-size: 10px;
+}
+#dis-warp .el-tabs--top.el-tabs--border-card>.el-tabs__header .el-tabs__item:last-child{
+    background-color:#0c101b;
+
+}
+#dis-warp .el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active{
+    color:#db1f1f;
+    background-color:#0c101b;
+    border-right-color:#0c101b;
+    border-bottom-color:#db1f1f;
+    border-left-color:#0c101b;
+}
+#dis-warp .el-tabs--border-card>.el-tabs__header .el-tabs__item:not(.is-disabled):hover{
+    color: rgb(240, 248, 255);
+}
+#dis-warp .el-tabs__item{
+    color: rgba(219, 233, 233, 0.616);
+    background-color:#0c101b;
+    font-size: 12px;
+}
+#dis-warp .el-tabs__nav-scroll{
+    background-color:#0c101b;
+    border:#0c101b;
+}
+#dis-warp .el-pager li.active{
+    color:#db1f1f;
+}
+#dis-warp .el-pager li:hover{
+    color:#db1f1f;
+}
+#dis-warp .el-pagination button:hover{
+    color:#db1f1f;
+}
+#dis-warp .el-pagination .btn-next, .el-pagination .btn-prev{
+    background-color:#0c101b;
+}
+#dis-warp .el-pagination button:disabled{
+    background-color:#0c101b;
+}
+#dis-warp .el-dialog, .el-pager li{
+    background-color:#0c101b;
+    font-size:10px;
+}
+#dis-warp #card{
+    margin-right: 50px;
+    float:right ;  
+}
+/* 热门歌手样式 */
+#songer-warp{
+    width: 30%;
+    background-color: #0c101b;
+    position: relative;
+    margin-top: 510px;
+    margin-right: 70px;
+    float: right;
+}
+#songer-warp h1{
+    color: #c3325d;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 40px;
+    margin-top: 30px;  
+}
+#songer-warp #top-txt{
+  font-size: 10px;
+  margin-left: 40px;
+}
+#songer-warp .el-tabs--border-card{
+    background:#0c101b;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    font-size: 10px;
+}
+#songer-warp #card{
+    margin: 10px 0;
+    margin-right: -20px;
+    float:right ;    
+}
+#songer-warp #topsonger-warp td{
+    width: 95px;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 10px;
+}
+#songer-warp #topsonger-warp td:hover{
+    color: #db1f1f;
+    cursor: pointer;
+}
+#songer-warp #topsonger-warp img{
+    width: 30px;
+    height: 30px;
+    border-radius: 3px; 
+}
+

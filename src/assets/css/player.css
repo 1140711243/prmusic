@@ -1,0 +1,137 @@
+#player-warp{  
+    height: 100%;
+
+}
+/* 歌词样式 */
+#player-warp #songtxt{
+    width: 100vw;
+    height: 92vh;
+    background-color: rgba(12, 16, 27, 0.664);
+}
+/* 播放器样式 */
+#player-warp #player{
+    background-color: rgba(12, 16, 27, 0.664);
+    width: 100vw;
+    height: 60px;
+    bottom: 0%;
+    position: fixed;
+}
+#player-warp #player #songerPic{
+    width: 48px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 5px;
+    float: left;
+}
+#player-warp #player #btn-warp{
+    margin-left: 15%;
+    padding-top: 13px;
+    float: left;
+}
+#player-warp #player #btn-warp img{
+    width: 35px;
+    height: 35px;
+}
+#player-warp #player #btn-warp img:hover{
+    cursor: pointer;
+}
+#player-warp #player #pro-txt{
+    float: left;
+    margin-left: 30px;
+    width: 40%;
+    height: 60px;
+}
+#player-warp #player #pro-txt h5{
+    color: #c2c2c2e1;
+    margin-top: 9px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+#player-warp #player #pro-txt p{
+    color: #c2c2c2e1;
+    font-size: 10px;
+    margin-top: 3px;
+}
+#b{
+    float: left;
+}
+#e{
+    float: right;
+}
+#player-warp #player #pro-txt #speed{
+    width: 100%;
+    margin-top: -9px;
+    height: 2px;
+    cursor: pointer;
+    position: relative;
+    /* background-color: bisque; */
+}
+#prograss{
+    width: 0%;
+    height: 100%;
+    background-color:#db1f1f ;
+    float: left;
+}
+#bar{
+    width: 10px;
+    margin-top: -4px;
+    left: 0%;
+    height: 10px;
+    position: absolute;
+    float: left;
+}
+#Pic2{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+    float: left;
+}
+#player-warp #player #ctr-btn{
+    width: 20%;
+    height: 60px;
+    margin-left: 30px;
+    float: left;
+}
+#player-warp #player #ctr-btn img{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+#player-warp #player #ctr-btn #playlists{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    margin-right: -50px;
+    margin-top: -545px;
+    float: right;
+    background-color: rgba(12, 16, 27, 0.664);
+}
+#player #ctr-btn #playlists #scrollbar{
+    margin-top: 30px;
+    width: 100%;
+}
+#player #ctr-btn #scrollbar .scrollbar-wrap{
+    overflow-x:hidden;
+}
+#player #ctr-btn #lists-warp img{
+    width: 20px;
+    height: 20px;
+    margin-left: 18px;
+    margin-right: 20px;
+}
+#player #ctr-btn #lists-warp td{
+    text-align: center;
+    width: 90px;
+    cursor: pointer;
+    color: rgb(206, 214, 214);
+    font-size: 10px;
+    padding-top: 10px;
+}
+#player #ctr-btn #lists-warp td:hover{
+    color: #db1f1f;
+}

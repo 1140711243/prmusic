@@ -1,0 +1,34 @@
+
+#show .el-carousel__item img{
+   width: 100vw;
+   height: 500px;
+   position: relative;
+    object-fit: cover;
+}
+#show .el-carousel__item ul{
+   display: flex;
+}
+#show .el-carousel__item #picshow{
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    margin-left: -40px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: inline-block;
+}
+
+#show .el-carousel__item #picshow .case_info {
+   margin-bottom: 5px;
+   position: absolute;
+   bottom: 0px;
+   color: #b7bcc2;
+   transition: all .5s;
+   background-image: linear-gradient(rgba(255, 255, 255, 0),rgb(19, 23, 34));
+   width: 100%;
+   height: 450px;
+}
+#show .el-carousel__container{
+   overflow-y:hidden;
+   overflow-x: hidden;
+}
